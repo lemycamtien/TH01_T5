@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <h1>Form đặt bàn quán ăn</h1>
+
+      <label for="ten">Họ tên:</label><br />
+      <input
+        type="text"
+        id="ten"
+        name="ten"
+        placeholder="Nhập họ tên"
+      /><br /><br />
+
+      <label for="songuoi">Số người:</label><br />
+      <input
+        type="number"
+        id="songuoi"
+        name="songuoi"
+        placeholder="Nhập số người"
+      /><br /><br />
+
+      <label for="thoigian">Ngày giờ:</label><br />
+      <input type="datetime-local" id="thoigian" name="thoigian" /><br /><br />
+
+      <label for="ghichu">Yêu cầu đặc biệt:</label><br />
+      <textarea
+        id="ghichu"
+        name="ghichu"
+        placeholder="Ví dụ: bàn gần cửa sổ, dị ứng tôm..."
+      ></textarea
+      ><br /><br />
+
+      <button type="submit">Đặt bàn</button>
+    </form>
+  </body>
+</html>
